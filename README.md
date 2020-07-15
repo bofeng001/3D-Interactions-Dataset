@@ -11,9 +11,12 @@ This is an official implementation of 3D interactions dataset generation for the
 
 Project directories:
 
-
-
-
+- `3d_interactions_generation.py`: source code for dataset generation with objects bounding boxes
+- `model`: source materials for 3D-interactions dataset, clone from the [CLEVR dataset](http://cs.stanford.edu/people/jcjohns/clevr/), include:
+  - `shapes`: objects’ shapes
+  - `materials`: objects’ materials
+  - `base_scene.blend`: python code for building base scene in Blender
+- `utils`: some useful scripts for generating train/test/val datasets, making gifs, and showing demos
 
 ## Dataset Description
 
@@ -21,13 +24,15 @@ We generate the 3D Interactions dataset using Blender [(Community, 2018)](http:/
 
 We use three different objects (sphere, cylinder, cube), two different materials (rubber, metal), three different sizes, and five different colors (pink, red, blue, green, yellow) to generate the scenes. All objects move on a smooth surface without friction. 
 
-*Note: the sizes and colors can be reset by yourself, and are not limited to our choice*
+*Note: the sizes and colors can be reset by yourself, and are not limited to our choice.*
 
 ## Images generation
 
 To generate the dataset, we randomly put 3 to 5 objects in the camera scene, and launch a sphere into the scene colliding with other objects. The appearance and incident angle of this initial sphere are also randomly selected. 
 
-
+<div align="center">
+  <img src="images/0.gif" width="100px">
+</div>
 
 
 
@@ -43,6 +48,6 @@ In this dataset, we split our dataset into 2920 episodes for training, and 200 e
 
 ## Reference
 
-[1] Community, B. O. *Blender -a 3D modelling and rendering package*. Blender Foundation, Stichting Blender Foundation, Amsterdam, 2018. URL http://www.blender.org. 
+[1] Community, B. O. *Blender -a 3D modelling and rendering package*. Blender Foundation, Stichting Blender Foundation, Amsterdam, 2018. URL: http://www.blender.org. 
 
 [2] Johnson, J. E., Hariharan, B., van der Maaten, L., Fei-Fei, L., Zitnick, C. L., and Girshick, R. B. Clevr: A diagnostic dataset for compositional language and elementary visual reasoning. *2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, pp. 1988–1997, 2016. 

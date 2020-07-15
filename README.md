@@ -18,6 +18,17 @@ Project directories:
   - `base_scene.blend`: python code for building base scene in Blender
 - `utils`: some useful scripts for generating train/test/val datasets, making gifs, and showing demos
 
+## Dependencies
+
+This project uses Python 3.6 and Blender 2.81a. I recommend using anaconda for dependency management.
+
+```
+conda create -n 3d-interaction python=3.6
+conda activate 3d-interaction
+```
+
+Note that this implementation requires Blender 2.81a, and it is not compatible with previous Blender versions.
+
 ## Dataset
 
 We generate the 3D Interactions dataset using Blender [(Community, 2018)](http://www.blender.org.), and Python, with the same base scene and object properties as the CLEVR dataset [(Johnson et al., 2016)](https://openaccess.thecvf.com/content_cvpr_2017/papers/Johnson_CLEVR_A_Diagnostic_CVPR_2017_paper.pdf).
@@ -61,6 +72,14 @@ To generate the dataset, we randomly put 3 to 5 objects in the camera scene, and
   <img src="images/bbox_1.gif" width="160px">
   <img src="images/bbox_2.gif" width="160px">
 </div>
+
+## How to Run?
+
+# Misc
+
+## Contact
+
+If you have any questions, please email Bofeng Fu at bofeng_fu@163.com
 
 ## Reference
 

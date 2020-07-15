@@ -49,19 +49,19 @@ data
 To generate the dataset, we randomly put 3 to 5 objects in the camera scene, and launch a sphere into the scene colliding with other objects. The appearance and incident angle of this initial sphere are also randomly selected. 
 
 <div align="center">
-  <img src="images/0.gif" width="150px">
-  <img src="images/1.gif" width="150px">
-  <img src="images/2.gif" width="150px">
+  <img src="images/seq_1.gif" width="160px">
+  <img src="images/seq_2.gif" width="160px">
+  <img src="images/seq_3.gif" width="160px">
 </div>
 
 
 
-
+with bounding box
 
 <div align="center">
-  <img src="images/bbox_0.gif" width="150px">
-  <img src="images/bbox_1.gif" width="150px">
-  <img src="images/bbox_2.gif" width="150px">
+  <img src="images/bbox_0.gif" width="160px">
+  <img src="images/bbox_1.gif" width="160px">
+  <img src="images/bbox_2.gif" width="160px">
 </div>
 
 

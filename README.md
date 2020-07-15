@@ -50,15 +50,17 @@ To generate the dataset, we randomly put 3 to 5 objects in the camera scene, and
 
 <div align="center">
   <img src="images/0.gif" width="100px">
+  <img src="images/1.gif" width="100px">
+  <img src="images/0.gif" width="100px">
+  <br>
+  <img src="images/0.gif" width="100px">
+  <img src="images/0.gif" width="100px">
+  <img src="images/0.gif" width="100px">
 </div>
 
 
 
-file structure
 
-google drive
-
-note
 
 In this dataset, we split our dataset into 2920 episodes for training, and 200 episodes for validation and test. Each episode has a length of 100. 
 

@@ -83,7 +83,7 @@ We also use GPU to accelerate rendering. We use NVIDIA GPU with CUDA 9.2 install
 
 ```
 cd ./
-blender --background --python 3d.py
+blender --background --python 3d_interactions_generation.py
 ```
 
 # Misc

@@ -20,7 +20,7 @@ Project directories:
 
 ## Dataset
 
-We generate the 3D Interactions dataset using Blender [(Community, 2018)](http://www.blender.org.), with the same base scene and object properties as the CLEVR dataset [(Johnson et al., 2016)](https://openaccess.thecvf.com/content_cvpr_2017/papers/Johnson_CLEVR_A_Diagnostic_CVPR_2017_paper.pdf).
+We generate the 3D Interactions dataset using Blender [(Community, 2018)](http://www.blender.org.), and Python, with the same base scene and object properties as the CLEVR dataset [(Johnson et al., 2016)](https://openaccess.thecvf.com/content_cvpr_2017/papers/Johnson_CLEVR_A_Diagnostic_CVPR_2017_paper.pdf).
 
 We use three different objects (sphere, cylinder, cube), two different materials (rubber, metal), three different sizes, and five different colors (pink, red, blue, green, yellow) to generate the scenes. All objects move on a smooth surface without friction. 
 
@@ -66,5 +66,4 @@ To generate the dataset, we randomly put 3 to 5 objects in the camera scene, and
 
 [1] Community, B. O. *Blender -a 3D modelling and rendering package*. Blender Foundation, Stichting Blender Foundation, Amsterdam, 2018. URL: http://www.blender.org. 
 
-[2] Johnson, J. E., Hariharan, B., van der Maaten, L., Fei-Fei, L., Zitnick, C. L., and Girshick, R. B. Clevr: A diagnostic dataset for compositional language and elementary visual reasoning. *2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, pp. 1988–1997, 2016. 
-
+[2] Johnson, J. E., Hariharan, B., van der Maaten, L., Fei-Fei, L., Zitnick, C. L., and Girshick, R. B. Clevr: A diagnostic dataset for compositional language and elementary visual reasoning. *2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, pp. 1988–1997, 2016.

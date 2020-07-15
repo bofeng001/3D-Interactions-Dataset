@@ -9,6 +9,14 @@ This is an official implementation of 3D interactions dataset generation for the
 
 ## Dataset Description
 
+We generate the 3D Interactions dataset using Blender (Community, 2018), with the same base scene and object properties as the CLEVR dataset (Johnson et al., 2016). 
+
+
+
+
+
+
+
 
 
 ## General
@@ -31,11 +39,13 @@ file structure
 
 note
 
+In this dataset, we split our dataset into 2920 episodes for training, and 200 episodes for validation and test. Each episode has a length of 100. 
+
 
 
 ## Reference
 
-
+[1] Community, B. O. *Blender -a 3D modelling and rendering package*. Blender Foundation, Stichting Blender Foundation, Amsterdam, 2018. URL http://www. blender.org. 
 
 
 

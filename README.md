@@ -73,7 +73,18 @@ To generate the dataset, we randomly put 3 to 5 objects in the camera scene, and
   <img src="images/bbox_2.gif" width="160px">
 </div>
 
-## How to Run?
+# How to Run?
+
+We render synthetic images using [Blender](https://www.blender.org/). The outputs are rendered images along with bounding boxes information for every image.
+
+Blender has Python inference, thus we can use Python command to execute blender scripts. Before this, you need to add Blender directory to Python `PATH`. You may refer to this [blog](https://osxdaily.com/2014/08/14/add-new-path-to-path-command-line/).
+
+We also use GPU to accelerate rendering. We use NVIDIA GPU with CUDA 9.2 installed. Then, you can render some images like this:
+
+```
+cd ./
+blender --background --python 3d.py
+```
 
 # Misc
 

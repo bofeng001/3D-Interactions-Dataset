@@ -35,7 +35,7 @@ We generate the 3D Interactions dataset using Blender [(Community, 2018)](http:/
 
 We use three different objects (sphere, cylinder, cube), two different materials (rubber, metal), three different sizes, and five different colors (pink, red, blue, green, yellow) to generate the scenes. All objects move on a smooth surface without friction. 
 
-*Note: the sizes and colors can be reset by yourself, and are not limited to our choice.*
+*Note: the sizes and colors can be reset by yourself, and are not limited to our choices.*
 
 The 3D dataset can be downloaded from this google drive link: [OBJ3D.zip (7G)](https://drive.google.com/file/d/1XSLW3qBtcxxvV-5oiRruVTlDlQ_Yatzm/view?usp=sharing).
 

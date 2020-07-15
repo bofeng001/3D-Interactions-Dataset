@@ -40,13 +40,13 @@ data
     └── pres.npy
 ```
 
-
-
-
+In this dataset, we split our dataset into 2920 episodes for training, and 200 episodes for validation and test. Each episode has a length of 100. 
 
 ## Images generation
 
 To generate the dataset, we randomly put 3 to 5 objects in the camera scene, and launch a sphere into the scene colliding with other objects. The appearance and incident angle of this initial sphere are also randomly selected. 
+
+### 3D interactions
 
 <div align="center">
   <img src="images/seq_1.gif" width="160px">
@@ -54,9 +54,7 @@ To generate the dataset, we randomly put 3 to 5 objects in the camera scene, and
   <img src="images/seq_3.gif" width="160px">
 </div>
 
-
-
-with bounding box
+### 3D interactions with bounding box
 
 <div align="center">
   <img src="images/bbox_0.gif" width="160px">
@@ -64,14 +62,9 @@ with bounding box
   <img src="images/bbox_2.gif" width="160px">
 </div>
 
-
-
-In this dataset, we split our dataset into 2920 episodes for training, and 200 episodes for validation and test. Each episode has a length of 100. 
-
-
-
 ## Reference
 
 [1] Community, B. O. *Blender -a 3D modelling and rendering package*. Blender Foundation, Stichting Blender Foundation, Amsterdam, 2018. URL: http://www.blender.org. 
 
 [2] Johnson, J. E., Hariharan, B., van der Maaten, L., Fei-Fei, L., Zitnick, C. L., and Girshick, R. B. Clevr: A diagnostic dataset for compositional language and elementary visual reasoning. *2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, pp. 1988–1997, 2016. 
+

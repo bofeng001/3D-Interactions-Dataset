@@ -11,20 +11,38 @@ This is an official implementation of 3D interactions dataset generation for the
 
 Project directories:
 
-- `3d_interactions_generation.py`: source code for dataset generation with objects bounding boxes
+- `3d_interactions_generation.py`: source code for dataset generation
 - `model`: source materials for 3D-interactions dataset, clone from the [CLEVR dataset](http://cs.stanford.edu/people/jcjohns/clevr/), include:
   - `shapes`: objects’ shapes
   - `materials`: objects’ materials
   - `base_scene.blend`: python code for building base scene in Blender
 - `utils`: some useful scripts for generating train/test/val datasets, making gifs, and showing demos
 
-## Dataset Description
+## Dataset
 
 We generate the 3D Interactions dataset using Blender [(Community, 2018)](http://www.blender.org.), with the same base scene and object properties as the CLEVR dataset [(Johnson et al., 2016)](https://openaccess.thecvf.com/content_cvpr_2017/papers/Johnson_CLEVR_A_Diagnostic_CVPR_2017_paper.pdf).
 
 We use three different objects (sphere, cylinder, cube), two different materials (rubber, metal), three different sizes, and five different colors (pink, red, blue, green, yellow) to generate the scenes. All objects move on a smooth surface without friction. 
 
 *Note: the sizes and colors can be reset by yourself, and are not limited to our choice.*
+
+The 3D dataset can be downloaded from this google drive link: [OBJ3D.zip (7G)](https://drive.google.com/file/d/1XSLW3qBtcxxvV-5oiRruVTlDlQ_Yatzm/view?usp=sharing).
+
+The `data` directory should look like this:
+
+```
+data
+└── OBJ3D
+    ├── test
+    ├── train
+    ├── val
+    ├── bboxes.npy
+    └── pres.npy
+```
+
+
+
+
 
 ## Images generation
 

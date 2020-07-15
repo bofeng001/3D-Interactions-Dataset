@@ -45,7 +45,5 @@ In this dataset, we split our dataset into 2920 episodes for training, and 200 e
 
 ## Reference
 
-[1] Community, B. O. *Blender -a 3D modelling and rendering package*. Blender Foundation, Stichting Blender Foundation, Amsterdam, 2018. URL http://www. blender.org. 
-
-
+[1] Community, B. O. *Blender -a 3D modelling and rendering package*. Blender Foundation, Stichting Blender Foundation, Amsterdam, 2018. URL http://www.blender.org. 
 
